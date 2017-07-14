@@ -1,1 +1,1 @@
-alert("This is an alert nigga")
+alert("Hi Dad")
