@@ -1,4 +1,21 @@
-.header {
+.container {
   background-image: url("https://www.xmple.com/wallpaper/gradient-linear-blue-orange-2560x1700-c2-00bfff-ff8c00-a-315-f-14.svg");
   background-size: cover;
+}
+
+.BodyP {
+	background-image: url("https://image.freepik.com/free-photo/blue-background_1160-851.jpg");
+	background-size: cover;
+	background-position: left;
+	margin-left: 40px;
+}
+
+.Intro {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.Foot {
+	margin-top: none;
+	margin-bottom: none;
 }
