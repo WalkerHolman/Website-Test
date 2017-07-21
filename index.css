@@ -13,9 +13,16 @@ a {
 .jumbotron {
 	background-image: url("http://static.panoramio.com/photos/large/11458460.jpg");
   	height: 360px;
-  	/*top: 50%;
-  	left: 90%;*/
-  	transform: translate(2%,2%);
+  	position: absolute;
+    left: 50%;
+    top: 40%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    /*-moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);*/
   	width: 1000px;
   	background-position: center;
   	background-repeat: no-repeat;
@@ -23,8 +30,8 @@ a {
 	border: 2px solid #FFF;
   	border-radius: 10px;
   	color: #FFF !important;
-  	text-align: center;
-  	vertical-align: center;
+  	vertical-align: center !important;
+  	margin-top: 5px;
 }
 
 .Outline {
@@ -52,6 +59,8 @@ a {
 .Intro {
 	margin-left: 20px;
 	margin-right: 20px;
+	position: absolute;
+	margin-top: 400px;
 }
 
 .Foot {
@@ -65,6 +74,7 @@ a {
   width: 90%;
   border: 2px solid #FFF;
   border-radius: 10px;
+  color: #FFF;
 }
 
 .MentorDescription {
@@ -75,4 +85,32 @@ a {
 
 .MentorPic {
 	float: left;
+}
+
+.MentorIntro {
+	text-align: -webkit-center !important;
+}
+
+.jumbotron2 {
+	background-image: url("https://gwinnett.uga.edu/sites/default/files/images/0094cassiewrightphoto.jpg");
+  	height: 200px;
+  	position: absolute;
+    left: 50%;
+    top: 30%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    /*-moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);*/
+  	width: 1000px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+	text-align: center;
+	border: 2px solid #FFF;
+  	border-radius: 10px;
+  	color: #FFF !important;
+  	vertical-align: center !important;
+  	margin-top: none;
 }
