@@ -59,7 +59,7 @@ a {
 .Intro {
 	margin-left: 20px;
 	margin-right: 20px;
-	position: absolute;
+	position: static;
 	margin-top: 400px;
 }
 
