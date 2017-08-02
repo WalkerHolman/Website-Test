@@ -10,11 +10,10 @@ a {
 	/*position: relative;*/
 }
 
-.Jumbo {
+/*.Jumbo {
 	background-image: url("http://static.panoramio.com/photos/large/11458460.jpg");
   	height: 360px;
   	position: absolute;
-	margin-top: 50px;
     left: 50%;
     top: 40%;
     bottom: auto;
@@ -33,6 +32,17 @@ a {
   	color: #FFF !important;
   	vertical-align: center !important;
   	margin-top: 5px;
+}*/
+
+.Tron {
+	background-image: url("http://static.panoramio.com/photos/large/11458460.jpg");
+  	height: 360px;
+  	width: 1000px;
+  	background-position: center;
+  	background-repeat: repeat;
+  	text-align: center;
+  	vertical-align: center !important;
+  	color: #FFF !important;
 }
 
 .Outline {
@@ -61,7 +71,7 @@ a {
 	margin-left: 20px;
 	margin-right: 20px;
 	position: static;
-	margin-top: 400px;
+	margin-top: 10px;
 }
 
 .Foot {
@@ -92,7 +102,7 @@ a {
 	text-align: -webkit-center !important;
 }
 
-.jumbotron2 {
+/*.jumbotron2 {
 	background-image: url("https://gwinnett.uga.edu/sites/default/files/images/0094cassiewrightphoto.jpg");
   	height: 300px;
   	margin-top: 40px;
@@ -116,6 +126,16 @@ a {
   	color: #FFF !important;
   	vertical-align: center !important;
   	margin-top: none;
+}*/
+
+.Tron2 {
+	background-image: url("https://gwinnett.uga.edu/sites/default/files/images/0094cassiewrightphoto.jpg");
+  	height: 300px;
+  	color: #FFF !important;
+  	background-position: center;
+  	background-repeat: repeat;
+  	text-align: center;
+  	vertical-align: center !important;
 }
 
 .ProgramTitle {
@@ -125,7 +145,7 @@ a {
 }
 
 .Program {
-	margin-top: 340px;
+	margin-top: 10px;
 	margin-left: 55px;
 	margin-right: 55px;
 	width: 92%;
