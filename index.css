@@ -93,17 +93,19 @@ a {
 
 .jumbotron2 {
 	background-image: url("https://gwinnett.uga.edu/sites/default/files/images/0094cassiewrightphoto.jpg");
-  	height: 200px;
+  	height: 300px;
+  	margin-top: 40px;
+  	margin-bottom: 20px;
   	position: absolute;
     left: 50%;
     top: 30%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
-    /*-moz-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
     -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);*/
+    transform: translateX(-50%) translateY(-50%);
   	width: 90%;
   	background-position: center;
   	background-repeat: no-repeat;
@@ -122,9 +124,9 @@ a {
 }
 
 .Program {
-	margin-top: 250px;
+	margin-top: 340px;
 	margin-left: 55px;
-	margin-right: 45px;
+	margin-right: 55px;
 	width: 92%;
 	vertical-align: center !important;
 	padding-left: 10px;
