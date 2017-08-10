@@ -88,6 +88,15 @@ a {
   color: #FFF;
 }
 
+.mentorsI {
+	margin: 60px auto;
+  padding: 0px 0px 0px 0px;
+  width: 90%;
+  border: 2px solid #FFF;
+  border-radius: 10px;
+  color: #FFF;
+}
+
 .MentorDescription {
 	display: inline-block;
   width: 70%;
